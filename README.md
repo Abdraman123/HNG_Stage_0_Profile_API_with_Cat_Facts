@@ -37,7 +37,7 @@ A RESTful API built with FastAPI that returns profile information along with ran
 ## 📁 Project Structure
 
 ```
-hng-stage0/
+hng-stage0/profile api with cat facts
 │
 ├── main.py              # FastAPI application and API endpoints
 ├── models.py            # Pydantic models for request/response schemas
@@ -47,7 +47,6 @@ hng-stage0/
 ├── .env                 # Environment variables (not in git)
 ├── .gitignore          # Git ignore rules
 ├── README.md           # Project documentation (this file)
-├── verify_config.py    # Configuration verification script
 └── runtime.txt         # Python version for deployment (optional)
 ```
 
