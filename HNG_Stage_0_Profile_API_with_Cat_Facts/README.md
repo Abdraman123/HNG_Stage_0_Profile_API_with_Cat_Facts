@@ -45,9 +45,9 @@ hng-stage0/profile api with cat facts
 ├── config.py            # Configuration and settings management
 ├── requirements.txt     # Python dependencies
 ├── .env                 # Environment variables (not in git)
-├── .gitignore          # Git ignore rules
-├── README.md           # Project documentation (this file)
-└── runtime.txt         # Python version for deployment (optional)
+├── .gitignore           # Git ignore rules
+├── README.md            # Project documentation (this file)
+└──.python-version       # Python version for deployment (optional)
 ```
 
 ### File Descriptions
