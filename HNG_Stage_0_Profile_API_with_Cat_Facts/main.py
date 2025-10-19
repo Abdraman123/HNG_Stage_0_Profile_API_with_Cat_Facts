@@ -174,12 +174,12 @@ async def shutdown_event():
 # Run the application
 # This block only executes when running the file directly
 # (not when imported as a module)
-if __name__ == "__main__":
-    import uvicorn
+#if __name__ == "__main__":
+    #import uvicorn
     
-    uvicorn.run(
-        "main:app",
-        host=settings.HOST,
-        port=settings.PORT,
-        reload=settings.DEBUG  # Auto-reload on code changes in debug mode
-    )
+    #uvicorn.run(
+       # "main:app",
+       # host=settings.HOST,
+      #  port=settings.PORT,
+       # reload=settings.DEBUG  # Auto-reload on code changes in debug mode
+    #)
